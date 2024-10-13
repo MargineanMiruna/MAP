@@ -9,9 +9,10 @@ public class Main {
         System.out.println("Nicht ausreichende Noten: " + u.toString(u.nichtAusreichend(noten)));
         System.out.println("Durchschnittswert: " + u.toString(u.durchschnittswert(noten)));
         System.out.println("Abgerundete Noten: " + u.toString(u.aufgerundeteNoten(noten)));
+        System.out.println("Maximale aufgerundete Note: " + u.maxAufgerundeteNoten(noten));
 
         //Aufgabe2
-        System.out.println("\n\nAufgabe 2");
+        System.out.println("\nAufgabe 2");
         int n = 5;
         double[] zahlen = {4, 8, 3, 10, 17};
 

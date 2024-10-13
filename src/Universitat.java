@@ -73,5 +73,15 @@ public class Universitat {
         return aufgerundeteNoten;
     }
 
+    public int maxAufgerundeteNoten(int[] noten) {
+        int max = this.aufgerundeteNoten(noten)[0];
+
+        for (int i = 1; i < aufgerundeteNoten(noten).length; i++) {
+            if(max < aufgerundeteNoten(noten)[i])
+                max = aufgerundeteNoten(noten)[i];
+        }
+
+        return max;
+    }
 
 }
