@@ -1,7 +1,17 @@
 public class Main {
     public static void main(String[] args) {
+        //Aufgabe1
+        System.out.println("Aufgabe 1");
+        int[] noten = {29, 37, 38, 41, 84, 67};
+
+        Universitat u = new Universitat();
+
+        System.out.println("Nicht ausreichende Noten: " + u.toString(u.nichtAusreichend(noten)));
+        System.out.println("Durchschnittswert: " + u.toString(u.durchschnittswert(noten)));
+        System.out.println("Abgerundete Noten: " + u.toString(u.aufgerundeteNoten(noten)));
 
         //Aufgabe2
+        System.out.println("\n\nAufgabe 2");
         int n = 5;
         double[] zahlen = {4, 8, 3, 10, 17};
 
@@ -13,6 +23,7 @@ public class Main {
         System.out.println("Minimale Summe von n-1 Zahlen: " + z.minSumme());
 
         //Aufgabe3
+        System.out.println("\nAufgabe 3");
         int[] ersteZahl = {2, 5, 9, 9};
         int[] zweiteZahl = {1, 4, 0, 0};
 
