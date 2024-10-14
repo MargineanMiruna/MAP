@@ -34,5 +34,16 @@ public class Main {
         System.out.println("Differenz: " + az.toString(az.Diff()));
         System.out.println("Multiplikation: " + az.toString(az.Mult(2)));
         System.out.println("Division: " + az.toString(az.Div(2)));
+
+        //Aufgabe4
+        System.out.println("\nAufgabe 4");
+        double[] tastatur = {40, 35, 70, 15, 45};
+        double[] usb = {20, 15, 40, 15};
+
+        ElektronikShop e = new ElektronikShop(tastatur, usb);
+
+        System.out.println("Billigste Tastatur: " + e.billigsteTastatur());
+        System.out.println("Teuersten Gegenstand: " + e.teuerstenGegenstand());
+        System.out.println("Teuerstes USB, das Markus kaufen kann: " + e.teuerstesUSB(30));
     }
 }
