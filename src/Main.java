@@ -45,5 +45,6 @@ public class Main {
         System.out.println("Billigste Tastatur: " + e.billigsteTastatur());
         System.out.println("Teuersten Gegenstand: " + e.teuerstenGegenstand());
         System.out.println("Teuerstes USB, das Markus kaufen kann: " + e.teuerstesUSB(30));
+        System.out.println("Maximalen Geldbetrag: " + e.maxGeldbetrag(60));
     }
 }
